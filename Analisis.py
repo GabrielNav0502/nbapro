@@ -34,7 +34,7 @@ st.markdown("""
 # ==============================================================================
 # 3. PROCESAMIENTO DE DATOS
 # ==============================================================================
-ARCHIVO = 'Datos.xlsx'
+ARCHIVO = 'datos.xlsx'
 
 def parse_teams(row):
     try:
@@ -454,4 +454,5 @@ if total > 0:
             use_container_width=True
         )
 else:
+
     st.warning("⚠️ No hay datos.")
